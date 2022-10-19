@@ -1,0 +1,52 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+        "title": "",
+        "description": "adfds",
+        "version": "",
+        "contact": {
+            "name": "jeremy",
+            "email": "jeremy@me.com"
+        }
+    },
+    "tags": [
+        {
+            "name": "sometag",
+            "description": "adfd"
+        }
+],
+"servers": [
+    {
+        "url": "https://jeremy.com"
+    }
+],
+"pathss": {
+    "/output/{output-id}/getObject": {
+        "get": {
+            "tags": [
+                "sometag"
+            ],
+            "description": "dfdsf",
+            "summary": "this is a summary",
+            "parameters": [
+                {
+                    "name": "output-id",
+                    "in": "path",
+                    "required": true,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": ""
+                },
+                "400": {
+                    "description": ""
+                }
+            }
+        }
+    }
+}
+}
